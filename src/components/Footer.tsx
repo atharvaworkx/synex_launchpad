@@ -47,7 +47,7 @@ const Footer = () => (
           <h4 className="text-xs font-medium uppercase tracking-[0.15em] text-muted-foreground">Connect</h4>
           <div className="flex flex-col gap-3">
             {[
-              { label: "Email", href: "mailto:hello@synexinnovations.com" },
+              { label: "Email", href: "mailto:synexinnovation@gmail.com" },
               { label: "LinkedIn", href: "#" },
               { label: "Twitter / X", href: "#" },
             ].map((link) => (

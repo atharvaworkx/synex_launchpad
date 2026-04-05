@@ -102,13 +102,13 @@ const ContactPage = () => {
                       <div className="h-10 w-10 rounded-xl bg-primary/10 flex items-center justify-center">
                         <Mail className="h-4 w-4 text-primary" />
                       </div>
-                      <span className="text-sm text-muted-foreground">hello@synexinnovations.com</span>
+                      <span className="text-sm text-muted-foreground">synexinnovation@gmail.com</span>
                     </div>
                     <div className="flex items-center gap-3">
                       <div className="h-10 w-10 rounded-xl bg-primary/10 flex items-center justify-center">
                         <MapPin className="h-4 w-4 text-primary" />
                       </div>
-                      <span className="text-sm text-muted-foreground">Remote-first · Global</span>
+                      <span className="text-sm text-muted-foreground">Pune, Maharashtra, India</span>
                     </div>
                   </div>
                 </div>

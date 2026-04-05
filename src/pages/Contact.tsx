@@ -63,7 +63,15 @@ const ContactPage = () => {
         body: JSON.stringify(formData),
       });
 
-      const data = await response.json();
+      let data;
+      try {
+        data = await response.json();
+      } catch (parseError) {
+        console.error("Failed to parse JSON response:", await response.text());
+        setError("Server returned an invalid response. Check backend logs.");
+        setLoading(false);
+        return;
+      }
 
       if (response.ok && data.success) {
         setSubmitted(true);
@@ -82,7 +90,7 @@ const ContactPage = () => {
       }
     } catch (err) {
       setError(
-        "Unable to connect to the server. Please make sure the backend is running."
+        "Network error. Please check your connection and try again."
       );
       console.error("Error submitting form:", err);
     } finally {

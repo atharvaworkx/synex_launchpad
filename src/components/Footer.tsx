@@ -48,7 +48,7 @@ const Footer = () => (
           <div className="flex flex-col gap-3">
             {[
               { label: "Email", href: "mailto:synexinnovation@gmail.com" },
-              { label: "LinkedIn", href: "#" },
+              { label: "LinkedIn", href: "https://www.linkedin.com/in/synex-innovations-212a62400" },
               { label: "Twitter / X", href: "#" },
             ].map((link) => (
               <a

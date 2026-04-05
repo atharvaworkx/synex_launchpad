@@ -108,7 +108,7 @@ const ContactPage = () => {
                       <div className="h-10 w-10 rounded-xl bg-primary/10 flex items-center justify-center">
                         <MapPin className="h-4 w-4 text-primary" />
                       </div>
-                      <span className="text-sm text-muted-foreground"> Pune, Maharashtra, India</span>
+                      <span className="text-sm text-muted-foreground">Pune, Maharashtra, India</span>
                     </div>
                   </div>
                 </div>

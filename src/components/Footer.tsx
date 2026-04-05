@@ -49,6 +49,7 @@ const Footer = () => (
             {[
               { label: "Email", href: "mailto:synexinnovation@gmail.com" },
               { label: "LinkedIn", href: "https://www.linkedin.com/in/synex-innovations-212a62400" },
+              { label: "Instagram", href: "https://www.instagram.com/synexinnovations?igsh=MTNraWQ4dTltZGdybA==" },
               { label: "Twitter / X", href: "#" },
             ].map((link) => (
               <a

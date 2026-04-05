@@ -6,7 +6,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { ArrowRight, Mail, MapPin, CheckCircle2, AlertCircle } from "lucide-react";
 
-const API_BASE_URL = "https://synex-launchpad-backend.onrender.com";
+const API_BASE_URL = "https://synex-launchpad-backend.onrender.com/api/contact";
 
 interface FormData {
   name: string;
